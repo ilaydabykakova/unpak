@@ -4,30 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- <meta http-equiv="refresh" content="10";> -->
-    <?php include('css-import.php')?>
-    
+ <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style-menu.css" crossorigin="anonymous">
+
   <title>Main</title>
 </head>
 
 <body>
-<div class="container">
+<div class="container" >
 
-<div class="row">
 
-  <div id="mySidenav" class="sidenav">
+<div class="row design-index">
+
+  <div id="mySidenav" class="sidenav" >
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#"><span style="font-size:20px; ">Kahvaltılar</span></a>
+  <a href="#"><span style="font-size:20px;">Başlangıçlar</span></a>
+  <a href="#"><span style="font-size:20px;">Salatalar</span></a>
+  <a href="#"><span style="font-size:20px;">Hamburgerler,Wraplar,Pizzalar/Pideler</span></a>
+  <a href="#"><span style="font-size:20px;">Makarnalar</span></a>
+  <a href="#"><span style="font-size:20px;">Yemekler</span></a>
+  <a href="#"><span style="font-size:20px;">Pastalar, Tuzlu & Tatlı Atıştırmalıklar ,Tatlılar </span></a>
+  <a href="#"><span style="font-size:20px;">İçecekler</span></a>
 </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<span class="text-style" onclick="openNav()">&#9776; MENÜ</span>
 </div>
 
-<div class="row">
-
-  <div id="carousel-example-1z" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+<div class="row design-index2" >
+  <div id="carousel-example-1z" class="carousel slide carousel-fade z-depth-1-half " data-ride="carousel">
     <!--Indicators-->
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
@@ -164,19 +169,22 @@
   </div>
 
 </div>
+
 </div>
 
-<?php include('js-import.php') ?>
 
 <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "90%";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+    <script src="js/jquery-3.5.1.min.js"  crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+
 
 </body>
 
