@@ -1,6 +1,7 @@
+
 body {
-  font-family: "Lato", sans-serif;
-  background-color: #111;
+    font-family: Nunito;
+    background-color: #111;
 
 }
 
@@ -8,15 +9,25 @@ body {
     position: relative;
 }
 .design-index{
-  padding: 0px 10px 30px 32px;
+  padding: 20px 10px 20px 32px;
   background-color: #111;
 
 }
 .text-style{
-  font-size:30px;
+  font-size:40px;
   cursor:pointer;
   color:#818181;
+  font-weight: 500;
+}
 
+
+.loginline{
+  padding: 10px;
+  border-bottom: 50px;
+  border-color: #818181;
+  border-bottom-style: solid;
+  position:relative;
+  border-width:thin;
 }
 .design-index2{
   position: relative;
