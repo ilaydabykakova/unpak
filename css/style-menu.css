@@ -22,6 +22,14 @@ body {
 
 
 .loginline{
+  border-bottom: 50px;
+  border-color: #818181;
+  border-bottom-style: solid;
+  position:relative;
+  border-width:thin;
+}
+
+.loginline2{
   padding: 10px;
   border-bottom: 50px;
   border-color: #818181;
