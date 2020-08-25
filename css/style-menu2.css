@@ -1,12 +1,11 @@
-
 body {
-    font-family: Nunito;
-    background-color: #111;
-
+      font-family: Nunito;
+      background-color: #4a9e961f;
+        background-color: #111;
 }
 
 .container{
-    position: relative;
+position: relative;
 }
 .design-index{
   padding: 20px 10px 20px 32px;
@@ -19,7 +18,6 @@ body {
   color:#818181;
   font-weight: 500;
 }
-
 
 .loginline{
   border-bottom: 50px;
@@ -40,6 +38,57 @@ body {
 .design-index2{
   position: relative;
   z-index: 0;
+}
+.carouselContainer {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselImgs {
+  width: 100%;
+  height: 100%;
+  animation: fade 1.3s;
+  display: none;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 48%;
+  cursor: pointer;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.5s ease;
+  border-radius: 20px;
+  user-select: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .sidenav {
